@@ -43,10 +43,10 @@
     <bool>false</bool>
    </attribute>
    <addaction name="action_home"/>
+   <addaction name="action_man"/>
    <addaction name="action_picture"/>
    <addaction name="action_video"/>
    <addaction name="action_history"/>
-   <addaction name="action_man"/>
    <addaction name="separator"/>
    <addaction name="action_close"/>
    <addaction name="action_mini"/>
