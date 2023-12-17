@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>697</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>妆糕人数据库</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/img/img/妆字.gif</normalon>
+   </iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>697</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_home"/>
+   <addaction name="action_picture"/>
+   <addaction name="action_video"/>
+   <addaction name="action_history"/>
+   <addaction name="action_man"/>
+   <addaction name="separator"/>
+   <addaction name="action_close"/>
+   <addaction name="action_mini"/>
+   <addaction name="action_quit"/>
+  </widget>
+  <action name="action_picture">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/图片.png</normaloff>:/img/img/图片.png</iconset>
+   </property>
+   <property name="text">
+    <string>图片</string>
+   </property>
+   <property name="toolTip">
+    <string>图片库</string>
+   </property>
+  </action>
+  <action name="action_video">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/视频.png</normaloff>:/img/img/视频.png</iconset>
+   </property>
+   <property name="text">
+    <string>视频</string>
+   </property>
+   <property name="toolTip">
+    <string>视频库</string>
+   </property>
+  </action>
+  <action name="action_quit">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/Quit.png</normaloff>:/img/img/Quit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="action_mini">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/最小化.png</normaloff>:/img/img/最小化.png</iconset>
+   </property>
+   <property name="text">
+    <string>最小化</string>
+   </property>
+  </action>
+  <action name="action_close">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/退出.png</normaloff>:/img/img/退出.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭所有页面</string>
+   </property>
+  </action>
+  <action name="action_home">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/主页.png</normaloff>:/img/img/主页.png</iconset>
+   </property>
+   <property name="text">
+    <string>主页</string>
+   </property>
+  </action>
+  <action name="action_history">
+   <property name="icon">
+    <iconset resource="../CakeDM.qrc">
+     <normaloff>:/img/img/文档.png</normaloff>:/img/img/文档.png</iconset>
+   </property>
+   <property name="text">
+    <string>史料库</string>
+   </property>
+  </action>
+  <action name="action_man">
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/img/人物.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>非遗传承人</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../CakeDM.qrc"/>
+ </resources>
+ <connections/>
+</ui>

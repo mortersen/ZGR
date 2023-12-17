@@ -1,0 +1,44 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/雷远洲.jpg</file>
+    <file>img/苏梵.jpg</file>
+    <file>img/肖其昌.jpg</file>
+    <file>img/张丽水.jpg</file>
+    <file>img/张明生.jpg</file>
+    <file>img/张明铁.jpg</file>
+    <file>img/张志勤.jpg</file>
+    <file>img/人物.png</file>
+    <file>img/资料.png</file>
+    <file>img/download.png</file>
+    <file>img/PageDown.png</file>
+    <file>img/PageUp.png</file>
+    <file>img/print.png</file>
+    <file>img/ZoomLarger.png</file>
+    <file>img/ZoomSmaller.png</file>
+    <file>img/PDF下载.png</file>
+    <file>img/READPDF.png</file>
+    <file>img/阅读.png</file>
+    <file>img/READPDF.png</file>
+    <file>img/跳转.png</file>
+    <file>img/查询.png</file>
+    <file>img/文档.png</file>
+    <file>img/主页.png</file>
+    <file>img/妆糕人介绍.jpg</file>
+    <file>img/妆字.gif</file>
+    <file>img/Quit.png</file>
+    <file>img/退出.png</file>
+    <file>img/最小化.png</file>
+    <file>img/视频.png</file>
+    <file>img/图片.png</file>
+    <file>img/播放.png</file>
+    <file>img/出音.png</file>
+    <file>img/静音.png</file>
+    <file>img/全屏.png</file>
+    <file>img/停止.png</file>
+    <file>img/暂停.png</file>
+    <file>img/上一页.png</file>
+    <file>img/下一页.png</file>
+    <file>img/右翻.png</file>
+    <file>img/左翻.png</file>
+  </qresource>
+</RCC>
